@@ -31,6 +31,7 @@
 .card_array{
     margin: 8px;
     height:40px;
+    width:900px;
 }
     .hand_card_frame{
         box-sizing: border-box;
@@ -82,6 +83,7 @@
         .card_bottom{
             float:right;
             margin-right: 6px;
+            font-family: roboto;
             font-weight: bold;
             font-size: 18px;
         }
