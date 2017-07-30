@@ -1,6 +1,6 @@
 .lanes {
     float: left;
-    position: relative;
+    position: absolute;
     left: 50%;
 }
 
@@ -11,7 +11,7 @@
 }
 
 
-.white_card{    background-color: #FFF59D;     }
+.white_card{    background-color: #F9FBE7;     }
 .blue_card {    background-color: #1976D2;                }
 .black_card{    background-color: #546E7A;              }
 .red_card  {    background-color: #f44336;                   }
@@ -28,58 +28,60 @@
 	border-radius: 20px;
 	border: 10px solid;
 }
-
-.hand_card_frame{
-    box-sizing: border-box;
-    float:left;
-    margin-left: -90px;
-
-    height: 264px;
-    width: 189px;
-    border-radius: 20px;
-    border: 10px solid;
+.card_array{
+    margin: 8px;
+    height:40px;
 }
-
-    .card_top{
-        height: 16px;
-        padding: 3px;
-        width: 100%;
-    }
-    .card_name {
-        font-family: Arial;
-        font-weight: bold;
-        font-size: 14px;
-        float: left;
-        text-align: left;
-    }
-    .card_cost {
-        font-family: Arial;
-        font-weight: bold;
-        font-size: 14px;
-        float: right;
-        text-align: left;
-        margin-right: 6px;
+    .hand_card_frame{
+        box-sizing: border-box;
+        float:left;
+        margin-left: -50px;
+        height: 264px;
+        width: 189px;
+        border-radius: 20px;
+        border: 10px solid;
     }
 
-    .card_image{
-        width: 149px;
-        height: 102px;
-        margin-left:9px;
-    }
+        .card_top{
+            height: 16px;
+            padding: 3px;
+            width: 100%;
+        }
+        .card_name {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 14px;
+            float: left;
+            text-align: left;
+        }
+        .card_cost {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 14px;
+            float: right;
+            text-align: left;
+            margin-right: 6px;
+        }   
 
-    .card_text{
-        font-family: arial;
-        text-align: left;
-        font-size: 14px;
-        margin-left:9px;
-        margin-top:9px;
-        width: 149px;
-        height: 94px;
-    }
+        .card_image{
+            width: 149px;
+            height: 102px;
+            margin-left:9px;
+        }   
 
-    .card_bottom{
-        float:right;
-        margin-right: 6px;
-        font-weight: bold;
-        font-size: 18px;
-    }
+        .card_text{
+            font-family: arial;
+            text-align: left;
+            font-size: 14px;
+            margin-left:9px;
+            margin-top:9px;
+            width: 149px;
+            height: 94px;
+        }   
+
+        .card_bottom{
+            float:right;
+            margin-right: 6px;
+            font-weight: bold;
+            font-size: 18px;
+        }

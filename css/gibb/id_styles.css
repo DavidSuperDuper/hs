@@ -1,14 +1,26 @@
 
 
 #opp_bar {
-	height:5%;
+	height:7%;
 	background-color: TOMATO;
 }
 
 
 #player_bar {
-	height:19.5%;
-	background-color: LAVENDER;
+	height:17.5%;
+}
+#player_bar::after {
+  	content: "";
+	background-image: url("../../images/wood_background.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+  	opacity: .8;
+  	top: 82.5%;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;  
+  	z-index: -1; 
 }
 
 
@@ -16,20 +28,69 @@
 #battlefield {
 	height: 73.5%;
 	padding: 1%;
-	background-color: LEMONCHIFFON;
+}
+#battlefield::after {
+  	content: "";
+	background-image: url("../../images/background.png");
+	background-size: 100% 81.5%;
+	background-repeat: no-repeat;
+  	opacity: 0.8;
+  	top: 7%;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;  
+  	z-index: -1; 
 }
 	
 
-	#opp_field{
-    	box-sizing: border-box;
-		height: 50%;
-		border-bottom: 1px solid;
+#opp_field{
+    box-sizing: border-box;
+	height: 50%;
+	border-bottom: 1px solid;
+}
 
-	}
+#player_field {
+   	box-sizing: border-box;
+	height: 50%;
+	border-top: 1px solid;
+}
 
-	#player_field {
-    	box-sizing: border-box;
-		height: 50%;
-		border-top: 1px solid;
+#discard_icon {
+	display:inline-block;
+	float:left;
+	height: 120px;
+	width: 120px;
+	font-size: 34px;
+	color: white;
+	font-weight: bold;
+	line-height: 120px;   
+	text-align: center;
+	background: url("../../images/discard.png"); 
+    background-size: 120px 120px;
+    background-repeat: no-repeat; 
+}
+#deck_icon{
+	display:inline-block;
+	float:left;
+	height: 120px;
+	width: 92px;
+	font-size: 34px;
+	font-weight: bold;
+	color: white;
+	line-height: 120px;   
+	text-align: center;
+	background: url("../../images/card_icon.png"); 
+    background-size: 92px 120px;
+    background-repeat: no-repeat; 
+}
+#player_cards {
+	float: left;
+	width: 240px;
+}
 
-	}
+#player_info {
+	float: right;
+	width: 120px;
+}
+
