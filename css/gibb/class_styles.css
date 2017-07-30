@@ -11,11 +11,11 @@
 }
 
 
-.white_card{    background-color: LIGHTGOLDENRODYELLOW;     }
-.blue_card {    background-color: SLATEBLUE;                }
-.black_card{    background-color: DARKMAGENTA;              }
-.red_card  {    background-color: TOMATO;                   }
-.green_card{    background-color: DARKKHAKI;                }
+.white_card{    background-color: #FFF59D;     }
+.blue_card {    background-color: #1976D2;                }
+.black_card{    background-color: #546E7A;              }
+.red_card  {    background-color: #f44336;                   }
+.green_card{    background-color: #4CAF50;                }
 
 
 .played_card_frame{

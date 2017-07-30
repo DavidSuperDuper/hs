@@ -1,0 +1,109 @@
+#left_bar {
+	display: inline;
+	float: left;
+	height: 100%;
+	width: 240px;
+	padding: 20px;
+	height: 90%;
+}
+
+
+#content {
+	box-sizing: border-box;
+    margin-left:240px;
+	height: 100%;
+	width: calc(100%-240px);
+	padding: 20px;
+	height: 90%;
+}
+
+	#content_top{
+		text-align: center;
+		height:40px;
+		padding:5px;
+		width: 100%;
+	}
+
+	#content_input{
+			width:190px;
+			float:left;
+	}
+
+
+
+#left_bar{
+	box-sizing: border-box;
+	border-right: 1px solid #966;
+}
+	#left_bar_top {
+		text-align: center;
+		height:40px;
+		padding:5px;
+	}
+		#left_bar_input{
+			width: 190px;
+			height: 30px;
+			float: left;
+			padding: 8px;
+
+			background-color: #FFF8E1;
+			color: #b71c1c;
+			font-size: 20px;
+			border-radius: 10px;
+			border: 1px solid #FBE9E7;
+		}
+
+
+
+	#left_bar_body {
+		height: calc(100% - 90px);
+	}
+		#deck_list_ul {
+			padding: 5px;
+			margin: 10px 0;
+			font-family: Impact;
+			letter-spacing: 1px;
+			font-size: 20px;
+		}
+		#deck_list_ul li {
+			padding: 7px;	
+		}
+		#deck_list_ul li:nth-child(odd) {
+			padding: 7px;
+			background-color: #F0F7FA;	
+		}
+
+	#left_bar_bottom {
+		box-sizing: border-box;
+		padding:5px;
+		height:30px;
+	}
+
+		#left_bar_bottom img {
+			width:32px;
+			margin-right: 10px;
+		}
+		#left_bar_bottom img:hover {
+			cursor: pointer;
+		}
+
+#footer {
+	box-sizing: border-box;
+    padding: 5px 10px 5px 20px;
+    height: 10%;
+    width: 100%;
+    background-color: #DFD8DA;
+    color: white;
+}
+#cards_in_deck_icon {
+	margin: 5px;
+	box-sizing: border-box;
+	height: 70px;
+	width: 56px;
+	font-size: 26px;
+	line-height: 70px;   
+	text-align: center;
+	background: url("../../images/card_icon.png"); 
+    background-size: 56px 70px;
+    background-repeat: no-repeat; 
+}
