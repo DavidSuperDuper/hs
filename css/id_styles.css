@@ -1,0 +1,35 @@
+
+
+#opp_bar {
+	height:5%;
+	background-color: TOMATO;
+}
+
+
+#player_bar {
+	height:19.5%;
+	background-color: LAVENDER;
+}
+
+
+
+#battlefield {
+	height: 73.5%;
+	padding: 1%;
+	background-color: LEMONCHIFFON;
+}
+	
+
+	#opp_field{
+    	box-sizing: border-box;
+		height: 50%;
+		border-bottom: 1px solid;
+
+	}
+
+	#player_field {
+    	box-sizing: border-box;
+		height: 50%;
+		border-top: 1px solid;
+
+	}
