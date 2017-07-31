@@ -2,47 +2,48 @@
 
 #opp_bar {
 	height:7%;
-	background-color: TOMATO;
 }
-
-
-#player_bar {
-	height:17.5%;
-}
-#player_bar::after {
-  	content: "";
-	background-image: url("../../images/wood_background.png");
+#battlefield::after {
+	height: 7%;
+	background-image: url("../../images/background.png");
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
-  	opacity: .8;
-  	top: 82.5%;
-  	left: 0;
-  	bottom: 0;
-  	right: 0;
-  	position: absolute;  
-  	z-index: -1; 
+  	opacity: 0.8;
+  	top: 0%;
 }
 
 
 
 #battlefield {
-	height: 73.5%;
+    box-sizing: border-box;
+	height: 76%;
 	padding: 1%;
 }
 #battlefield::after {
-  	content: "";
+	height: 76%;
 	background-image: url("../../images/background.png");
-	background-size: 100% 81.5%;
-	background-repeat: no-repeat;
+	background-size: 100% 100%;
   	opacity: 0.8;
   	top: 7%;
-  	left: 0;
-  	bottom: 0;
-  	right: 0;
-  	position: absolute;  
-  	z-index: -1; 
 }
+
+
+
+#player_bar {
+	height:19%;
+}
+#player_bar::after {
+	background-image: url("../../images/wood_background.png");
+	background-size: 100% 100%;
+  	opacity: .8;
+  	top: 83%;
+	height: 19%;
+}
+
+
+
 	
+
+
 
 #opp_field{
     box-sizing: border-box;
@@ -56,39 +57,32 @@
 	border-top: 1px solid;
 }
 
-#discard_icon {
-	display:inline-block;
-	float:left;
-	height: 120px;
-	width: 120px;
-	font-size: 34px;
-	color: white;
-	font-weight: bold;
-	line-height: 120px;   
-	text-align: center;
-	background: url("../../images/discard.png"); 
-    background-size: 120px 120px;
-    background-repeat: no-repeat; 
-}
-#deck_icon{
-	display:inline-block;
-	float:left;
-	height: 120px;
-	width: 92px;
-	font-size: 34px;
-	font-weight: bold;
-	color: white;
-	line-height: 120px;   
-	text-align: center;
-	background: url("../../images/card_icon.png"); 
-    background-size: 92px 120px;
-    background-repeat: no-repeat; 
-}
+
+
+
+
+
 #player_cards {
 	float: left;
 	width: 240px;
 }
 
+	#discard_icon {
+		background: url("../../images/discard.png"); 
+    	background-size: 120px 120px;
+		width: 120px;
+	}
+	#deck_icon {		
+		background: url("../../images/card_icon.png"); 
+		background-size: 92px 120px;
+		width: 92px;
+	}
+
+#player_hand {
+	float: left;
+	width: calc(100% - 360px);
+
+}
 #player_info {
 	float: right;
 	width: 120px;
